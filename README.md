@@ -19,12 +19,17 @@ Funktioner
 -
 - Mer uppdrag (*More quests*)
 
+OBS
+-
+*DO NOT RELEASE THIS SCRIPT*
+
+Discord
+-
+https://discord.gg/AdkqgkQ
+
 Thank you
 -
 Tack för att du laddar ner mitt skript. Jag uppskattar om ni som använder skriptet låter namnet stå som "ksrp_mats". Detta skriptet releasade jag eftersom att det var en stor önskan. Finns alltid tillgänlig på min Discord om det skulle vara något.
 
 Thank you for downloading my script and hopefully yousing it. I appreciate if you let the name of the script stand like "ksrp_mats". Is always available on my Discord if it should be anything.
 
-**DISCORD:** https://discord.gg/AdkqgkQ
-
-*DO NOT RELEASE THIS SCRIPT*
