@@ -2,38 +2,29 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
--- Citizen.CreateThread(function()
--- 	while true do
--- 		Citizen.Wait(1000)
--- 		local time		= os.time()
--- 		local h         = tonumber(os.date('%H', timestamp))
--- 		local m         = tonumber(os.date('%M', timestamp))
--- 		local s         = tonumber(os.date('%S', timestamp))
+Citizen.CreateThread(function()
+	while true do
+		Citizen.Wait(1000)
+		local time		= os.time()
+		local h         = tonumber(os.date('%H', timestamp))
+		local m         = tonumber(os.date('%M', timestamp))
+		local s         = tonumber(os.date('%S', timestamp))
 
--- 		if h == 21 and m == 00 and s == 0 then
+		if h == 21 and m == 00 and s == 0 then
 
--- 			print('^3ksrp_mats:Toggled TimeToggle to true => Deactivated Mats^7')
--- 			TriggerClientEvent('ksrp_mats:TimeToggle', -1, true)
--- 		end
+			print('^3ksrp_mats:Toggled TimeToggle to true => Deactivated Mats^7')
+			TriggerClientEvent('ksrp_mats:TimeToggle', -1, true)
+		end
 
--- 		if h == 20 and m == 00 and s == 0 then
--- 			TriggerClientEvent('chat:addMessage', -1, 'Mats stänger sina uppdrag om 1 timme!')
--- 		end
+		if h == 20 and m == 00 and s == 0 then
+			TriggerClientEvent('chat:addMessage', -1, 'Mats stänger sina uppdrag om 1 timme!')
+		end
 
--- 		if h == 8 and m == 00 and s == 0 or h == 13 and m == 00 and s == 0 or h == 16 and m == 00 and s == 0 or h == 18 and m == 00 and s == 0 then
--- 			print('^3ksrp_mats:Toggled TimeToggle to true => Activated Mats^7')
--- 			TriggerClientEvent('ksrp_mats:TimeToggle', -1, false)
--- 		end
--- 	end
--- end)
-
---TriggerClientEvent('chat:addMessage', source, { args = { '^1Du aktiverade biltjuv' } })
-
-RegisterServerEvent('ksrp_mats:teleportentity')
-AddEventHandler('ksrp_mats:teleportentity', function(object, x, y, z)
-	local xPlayers = ESX.GetPlayers()
-	TriggerClientEvent('ksrp_mats:teleportentity', source, x, y, z)
-	print('tp')
+		if h == 8 and m == 00 and s == 0 or h == 13 and m == 00 and s == 0 or h == 16 and m == 00 and s == 0 or h == 18 and m == 00 and s == 0 then
+			print('^3ksrp_mats:Toggled TimeToggle to true => Activated Mats^7')
+			TriggerClientEvent('ksrp_mats:TimeToggle', -1, false)
+		end
+	end
 end)
 
 function getIdentity(source, callback)
