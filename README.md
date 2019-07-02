@@ -15,11 +15,11 @@ __Funktioner__
 *Features*
 - Quest
 
-_Önskas komma_
+__Önskas komma__
 
 - Mer uppdrag (*More quests*)
 
-_Thank you_
+__Thank you__
 
 Tack för att du laddar ner mitt skript. Jag uppskattar om ni som använder skriptet låter namnet stå som "ksrp_mats". Detta skriptet releasade jag eftersom att det var en stor önskan. Finns alltid tillgänlig på min Discord om det skulle vara något.
 
