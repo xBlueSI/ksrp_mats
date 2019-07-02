@@ -1,3 +1,3 @@
 -- Locales['sv'] = {
--- 	['mats_blip']		= 'Biltjuv'
+-- 	['mats_blip']		= 'mats'
 -- }
