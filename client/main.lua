@@ -203,8 +203,3 @@ AddEventHandler('ksrp_mats:TimeToggle', function(status)
 	TimeToggle = status
 end)
 
-RegisterNetEvent('ksrp_mats:teleportentity')
-AddEventHandler('ksrp_mats:teleportentity', function(object, x, y, z)
-	SetEntityCoords(object, x, y, z)
-end)
-
