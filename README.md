@@ -12,9 +12,7 @@ __Skripts som krävs för att detta ska fungera__
 - https://github.com/ESX-Org/esx_menu_default
 __Funktioner__
 
-*Features*
-- Quest
-
+__Quest__
 __Önskas komma__
 
 - Mer uppdrag (*More quests*)
