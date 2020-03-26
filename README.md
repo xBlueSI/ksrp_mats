@@ -1,4 +1,7 @@
 # ksrp_mats
+
+NOT SUPPORTED ANYMORE
+
 En enkelgjord quest som ger spelarna möjligheten att utföra arbeten utan att behöva vara anställda, också känt som extra arbeten.
 A simple-made quest that gives players the opportunity to perform work without having to be an employee, also known as extra work.
 
